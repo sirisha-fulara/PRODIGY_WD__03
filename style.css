@@ -1,0 +1,38 @@
+*{
+    background-color: bisque;
+}
+h1{
+    color: brown;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color:rgb(236, 181, 181) ;
+    text-align: center;
+    font-size: 2rem;
+}
+#board{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    height:240px;
+    width: 250px;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#restartBtn{
+    margin-left: 645px;
+    padding: 5px;
+    border: 2px solid brown;
+    border-radius: 10px;
+
+}
